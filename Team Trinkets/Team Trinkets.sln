@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C484AA5D-3D6B-9A19-35F9-5C9732CEC292}") = "Team Trinkets", "Assembly-CSharp.csproj", "{95A78384-954F-798E-46DA-1E4AE9E63BE8}"
+EndProject
+Project("{C484AA5D-3D6B-9A19-35F9-5C9732CEC292}") = "Team Trinkets", "Assembly-CSharp-Editor.csproj", "{419C36D3-45B1-C1C0-4D39-4A18EF5A0447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95A78384-954F-798E-46DA-1E4AE9E63BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A78384-954F-798E-46DA-1E4AE9E63BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A78384-954F-798E-46DA-1E4AE9E63BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A78384-954F-798E-46DA-1E4AE9E63BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419C36D3-45B1-C1C0-4D39-4A18EF5A0447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419C36D3-45B1-C1C0-4D39-4A18EF5A0447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419C36D3-45B1-C1C0-4D39-4A18EF5A0447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419C36D3-45B1-C1C0-4D39-4A18EF5A0447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
