@@ -1,20 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DestroyerScript : MonoBehaviour {
+public class DestroyerScript : MonoBehaviour
+{
 	
-	void OnTiggerEnter2D(Collider2D other){
+    void OnTriggerEnter2D(Collider2D other)
+    {
 
-		if (other.tag == "Player") {
-			Debug.Break ();
-			return;
-		}
+        if (other.tag == "Player")
+        {
+            Debug.Break();
+            return;
+        }
 
-		if (other.gameObject.transform.parent) {
-			Destroy (other.gameObject.transform.parent.gameObject);
-		} else {
-			Destroy (other.gameObject);
-		}
+        if (other.gameObject.transform.parent)
+        {
+            Destroy(other.gameObject.transform.parent.gameObject);
+        }
+        else
+        {
+            Destroy(other.gameObject);
+        }
 
-	}
+    }
 }
