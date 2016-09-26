@@ -45,12 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BackgroundMoverScript.cs" />
      <Compile Include="Assets\Scripts\CamerRunnerScript.cs" />
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
+     <Compile Include="Assets\Scripts\PlatformMover.cs" />
      <Compile Include="Assets\Scripts\Platformer2DUserControl.cs" />
-     <Compile Include="Assets\Scripts\Platformer2DUserControl2.cs" />
      <Compile Include="Assets\Scripts\PlatformerCharacter2D.cs" />
-     <Compile Include="Assets\Scripts\PlatformerCharacter2D2.cs" />
+     <Compile Include="Assets\Scripts\Player2Script.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
