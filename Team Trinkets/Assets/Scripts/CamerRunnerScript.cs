@@ -10,8 +10,11 @@ public class CamerRunnerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        screenUp = player.position.y;
+        if (player.position.y > 0)
+        {
+            screenUp = screenUp + 0.01f;
+            //screenUp = player.position.y;
+        }
         transform.position = new Vector3(0, screenUp, -10);
-        //screenUp = screenUp + 0.01f;
     }
 }

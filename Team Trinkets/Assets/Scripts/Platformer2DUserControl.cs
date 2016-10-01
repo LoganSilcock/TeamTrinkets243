@@ -2,12 +2,18 @@
 
 public class Platformer2DUserControl : MonoBehaviour
 {
+    //public AudioClip jumpSound;
+    // private AudioSource source;
+
     private PlatformerCharacter2D character;
     private bool jump;
+
 
     private void Awake()
     {
         character = GetComponent<PlatformerCharacter2D>();
+
+        //source = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -15,6 +21,8 @@ public class Platformer2DUserControl : MonoBehaviour
         if (!jump)
         // Read the jump input in Update so button presses aren't missed.
 		jump = Input.GetKeyDown(KeyCode.Space); //CrossPlatformInputManager.GetButtonDown("Jump");
+        // if (Input.GetKeyDown(KeyCode.Space))
+        //   source.PlayOneShot(jumpSound, 1.0f);
     }
 
     private void FixedUpdate()
