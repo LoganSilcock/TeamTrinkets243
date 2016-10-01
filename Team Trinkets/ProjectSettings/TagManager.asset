@@ -9,6 +9,7 @@ TagManager:
   - Smelly
   - Fire
   - PlatformCreator
+  - Background
   layers:
   - Default
   - TransparentFX

@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.Audio;
+
 
 public class Player2Script : MonoBehaviour
 {
     public GameObject[] platforms;
     public float moveSpeed = 0.5f;
+
+    public AudioClip platformPlacing;
+    private AudioSource source;
 
     Vector2 dest = Vector2.zero;
 
@@ -13,6 +18,8 @@ public class Player2Script : MonoBehaviour
 
     void Start()
     {
+        source = GetComponent<AudioSource>();
+
         dest = transform.position;
     }
 	
@@ -45,7 +52,8 @@ public class Player2Script : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Keypad0))
         {
-            
+            source.PlayOneShot(platformPlacing, 1.0f);
+
             NewPlatform();
         }
     }

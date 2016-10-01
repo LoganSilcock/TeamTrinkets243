@@ -2,13 +2,13 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CamerRunnerScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\CamerRunnerScript.cs" Line="15" Column="13" />
-      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CamerRunnerScript.cs" Line="25" Column="1" />
+      <File FileName="Assets\Scripts\DestroyerScript.cs" Line="16" Column="24" />
       <File FileName="Assets\Scripts\PlatformMover.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BackgroundMoverScript.cs" Line="23" Column="22" />
-      <File FileName="Assets\Scripts\PlatformerCharacter2D.cs" Line="93" Column="13" />
+      <File FileName="Assets\Scripts\PlatformerCharacter2D.cs" Line="93" Column="31" />
       <File FileName="Assets\Scripts\Platformer2DUserControl.cs" Line="5" Column="7" />
-      <File FileName="Assets\Scripts\Player2Script.cs" Line="55" Column="77" />
+      <File FileName="Assets\Scripts\Player2Script.cs" Line="55" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

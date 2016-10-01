@@ -13,13 +13,16 @@ public class DestroyerScript : MonoBehaviour
             return;
         }
 
-        if (other.gameObject.transform.parent)
+        if (other.tag != "Background")
         {
-            Destroy(other.gameObject.transform.parent.gameObject);
-        }
-        else
-        {
-            Destroy(other.gameObject);
+            if (other.gameObject.transform.parent)
+            {
+                Destroy(other.gameObject.transform.parent.gameObject);
+            }
+            else
+            {
+                Destroy(other.gameObject);
+            }
         }
 
     }
