@@ -23,13 +23,13 @@ public class PlatformerCharacter2D : MonoBehaviour
 
     private Transform groundCheck;
     // A position marking where to check if the player is grounded.
-    private float groundedRadius = .2f;
+    private float groundedRadius = .6f;
     // Radius of the overlap circle to determine if grounded
     private bool grounded = false;
     // Whether or not the player is grounded.
     private Transform ceilingCheck;
     // A position marking where to check for ceilings
-    private float ceilingRadius = .01f;
+    //private float ceilingRadius = .01f;
     // Radius of the overlap circle to determine if the player can stand up
     private Animator anim;
     // Reference to the player's animator component.
@@ -60,25 +60,34 @@ public class PlatformerCharacter2D : MonoBehaviour
             doubleJump = false;
     }
 
+    /**
+    private void OnTriggerEnter(BoxCollider2D other)
+    {
+        if (other.tag == "Platform")
+            grounded = true;
+    }
+
+    private void OnTriggerExit(BoxCollider2D other)
+    {
+        if (other.tag == "Platform")
+            grounded = true;
+    }
+    */
 
     public void Move(float move, bool jump)
     {
         //only control the player if grounded or airControl is turned on
         if (grounded || airControl)
         {
-            // The Speed animator parameter is set to the absolute value of the horizontal input.
-            anim.SetFloat("Speed", Mathf.Abs(move));
+            anim.SetFloat("Speed", Mathf.Abs(move)); // The Speed animator parameter is set to the absolute value of the horizontal input.
 
-            // Move the character
-            GetComponent<Rigidbody2D>().velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(move * maxSpeed, GetComponent<Rigidbody2D>().velocity.y);  // Move the character
 
             // If the input is moving the player right and the player is facing left...
             if (move > 0 && !facingRight)
-            	// ... flip the player.
                 Flip();
                 // Otherwise if the input is moving the player left and the player is facing right...
             else if (move < 0 && facingRight)
-            	// ... flip the player.
                 Flip();
         }
         // If the player should jump...

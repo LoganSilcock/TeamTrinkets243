@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: c03434855fa186340a0751c3b1469f19
+timeCreated: 1475372168
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boy_spritesheet_colour72_0
+    21300002: boy_spritesheet_colour72_1
+    21300004: boy_spritesheet_colour72_2
+    21300006: boy_spritesheet_colour72_3
+    21300008: boy_spritesheet_colour72_4
+    21300010: boy_spritesheet_colour72_5
+    21300012: boy_spritesheet_colour72_6
+    21300014: boy_spritesheet_colour72_7
+    21300016: boy_spritesheet_colour72_8
+    21300018: boy_spritesheet_colour72_9
+    21300020: boy_spritesheet_colour72_10
+    21300022: boy_spritesheet_colour72_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_0
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2300
+        width: 840
+        height: 2092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_1
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2306
+        width: 840
+        height: 2064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_2
+      rect:
+        serializedVersion: 2
+        x: 3778
+        y: 2460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_3
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 2300
+        width: 989
+        height: 1984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_4
+      rect:
+        serializedVersion: 2
+        x: 5317
+        y: 2274
+        width: 1044
+        height: 2182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 80
+        width: 987
+        height: 2070
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_6
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1361
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_7
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 32
+        width: 849
+        height: 2118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_8
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 1358
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_9
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 57
+        width: 1249
+        height: 2093
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_10
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 824
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: boy_spritesheet_colour72_11
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 767
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,17 +7,19 @@ public class CamerRunnerScript : MonoBehaviour
     public Transform cameraPos;
 
     private float screenUp = 0;
+    private float screenUpMulti = 1.0f;
 
     // Update is called once per frame
     void Update()
     {
         if (playerPos.position.y > 0)
         {
-            screenUp = screenUp + 0.01f;
+            screenUpMulti = screenUpMulti + 0.005f;
+            screenUp = screenUp + (0.01f * screenUpMulti);
             //screenUp = player.position.y;
         }
-        if (cameraPos.position.y > 42)
-            screenUp = 0;
+        if (cameraPos.position.y >= 42)
+            screenUp = 42;
             
         transform.position = new Vector3(0, screenUp, -10);
     }
